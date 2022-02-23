@@ -1,0 +1,16 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "Backend for Assign me",
+  "main": "app.js",
+  "scripts": {
+    "start":"npm start",
+    "test": "npm test"
+  },
+  "author": "Jamie Omondi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
+  }
+}
