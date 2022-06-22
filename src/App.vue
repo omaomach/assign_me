@@ -1,8 +1,11 @@
 <template>
 <router-view />
+
 </template>
 
 <script>
+
+
 
 export default {
   name: 'App',
@@ -19,4 +22,8 @@ export default {
   text-align: center;
 
 }
+main {
+  background-image: url('/assets/Assignment.jpg');
+}
+
 </style>

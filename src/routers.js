@@ -1,12 +1,12 @@
-import NavBar from './components/NavBar.vue'
+import DashBoard from './components/DashBoard.vue'
 import NewUser from './components/NewUser.vue'
 import CurrentUser from './components/CurrentUser.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
     {
-        name: 'NavBar',
-        component: NavBar,
+        name: 'DashBoard',
+        component: DashBoard,
         path: '/'
     },
     {

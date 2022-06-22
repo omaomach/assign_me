@@ -10,7 +10,24 @@
             <input type="text" v-model="username" placeholder="Username"/>
             <input type="text" v-model="password" placeholder="Password"/>
             <button v-on:click="signin">Sign In</button>
-            <h4 id="signup_text">Don't have an account?</h4>
+
+        <div class="registerandforgotpassword">
+            <table class="rf_text">
+                <tr>
+                    <td>
+                        <div class = "register">
+                            <h4 id="register_text">Sign up</h4>
+                        </div>
+                    </td>
+                    <td>
+                        <div class = "forgotpassword?">
+                            <h4 id="forgotpassword_text">Forgot password</h4>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
 
         </div>
     </div>
@@ -18,7 +35,7 @@
 </div>
 
 <div class="footer" id="signin_footer">
-    <h3 id="assign_text">Assign, powered by J softwares</h3>
+    <h3 id="assign_text1">Assign, powered by J softwares</h3>
 </div>
 
 </template>
@@ -101,10 +118,33 @@ export default {
 #signup_text {
     color: grey;
 }
+
+table, td {
+  border: 0px;
+}
+
+.register {
+    text-align: left;
+}
+#register_text {
+    text-shadow: 2px 2px 10px black; 
+}
+
+.forgotpassword {
+    text-align: right;  
+}
+#forgotpassword_text {
+    text-shadow: 2px 2px 10px black; 
+    margin-left: 54%;
+}
+#assign_text1 {
+    text-shadow: 4px 4px 4px grey;   
+}
+
 #signin_footer {
     margin-top:120px;
     background-color: white;
     
-}
+}   
 
 </style>
